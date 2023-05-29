@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/relativeLayout1">
+    <Button
+        p1:id="@+id/button1"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:text="@string/Reset"
+        p1:layoutDirection="inherit"
+        p1:gravity="center_horizontal"
+        p1:textColor="@android:color/holo_red_light"
+        p1:textColorHighlight="@android:color/holo_orange_light"
+        p1:clickable="true"/>
+    <ScrollView
+        
+        p1:layout_marginTop="330dp"
+        p1:layout_height="wrap_content" 
+        
+        p1:fillViewport="true"
+        p1:layout_alignBaseline="@id/button1"
+        p1:layout_width="match_parent"
+        p1:id="@+id/scrollView1">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="50px"
+            p1:padding="8dp"
+            p1:id="@+id/linearLayout1"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_below="@id/scrollView1">
+             <TextView
+                 p1:layout_width="match_parent"
+                 p1:layout_height="wrap_content"/>
+             <TextView 
+                p1:text="@string/ToolDm"
+                p1:layout_width="match_parent"
+                p1:layout_marginBottom="0.0dp"
+                p1:layout_marginRight="0.0dp"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView4" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/eT_toolDm"
+                
+                p1:layout_marginBottom="0.0dp" />
+            <TextView
+                p1:text="@string/CutSpd"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView3" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_cutSpd" />
+            <TextView
+                p1:text="@string/ToothNbr"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView25" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_toothNbr" />
+            <TextView
+                p1:text="@string/ToothFeed"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView6" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_toothFeed" />
+            <TextView
+                p1:text="Spindeldrehzahl S in 1/min"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView5" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_splSpd"
+                p1:hint="" />
+            <TextView
+                p1:text="@string/TotalFeed"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView7" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_totalFeed" />
+            <TextView
+                p1:text="@string/CutWidth"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView8" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_cutWidth" />
+            <TextView
+                p1:text="Drallwinkel des Werkzeuges in °"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView14" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/editText14" />
+            <TextView
+                p1:text="@string/CutDepth"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView9" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_cutDepth" />
+            <TextView
+                p1:text="@string/MaxChipThickness"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView10" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_maxChipThickness" />
+            <TextView
+                p1:text="mittlere Spandicke hₘ in mm"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView11" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:selectAllOnFocus="true"
+                p1:id="@+id/eT_medChipThickness" />
+            <TextView
+                p1:text="Zeitspanvolumen Q in cm³/min"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView12" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText7" />
+            <TextView
+                p1:text="@string/ForcedVc"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView13" />
+            <EditText
+                p1:inputType="numberDecimal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/eT_forcedVc" />
+            <Button
+                p1:id="@+id/button2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:text="Vc-Faktor anwenden" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

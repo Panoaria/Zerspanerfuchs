@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Zerspanerfuchs</string>
+    <string name="Reset">Reset</string>
+  <string name="ToolDm">Werkzeugdurchmesser Ø in mm</string>
+  <string name="CutSpd">Schnittgeschwindigkeit Vc in m/min</string>
+  <string name="ToothNbr">Anzahl der Schneiden n</string>
+  <string name="ToothFeed">Zahnvorschub Fz in mm/min</string>
+  <string name="CutWidth">Eingriffsbreite Aₑ in mm</string>
+  <string name="TotalFeed">Vorschubgeschwindigkeit F in mm/min</string>
+  <string name="CutDepth">Zustelltiefe Aₚ in mm</string>
+  <string name="MaxChipThickness">maximale Spandicke hₑₓ in mm</string>
+  <string name="ForcedVc">Empfohlener Vc-Faktor</string>
+  
+</resources>

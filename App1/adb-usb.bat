@@ -1,0 +1,2 @@
+adb usb
+adb devices
